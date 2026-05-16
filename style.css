@@ -951,11 +951,16 @@ img {
         padding: 4rem 2rem;
     }
 
-    .about-grid,
-    .journal-content,
-    
+   .about-grid,
+    .journal-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
 
-    .about-image,
+    .about-image {
+        position: relative;
+        top: 0;
+    }
     
 
     
